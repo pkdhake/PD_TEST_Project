@@ -4,6 +4,7 @@
 	<test name="Test_All">
 		<classes>
 			<class name="com.inet.testscripts.Tc1" />
+			<class name="PD_Listeners.Class_ITestListener" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
