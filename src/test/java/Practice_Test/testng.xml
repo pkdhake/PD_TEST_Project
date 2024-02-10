@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1">
+    <parameter name = "myName" value="Sachin Tendulkar"/> <!--Suite Level-->
+    <test name = "test1">
+        <parameter name = "myName" value="Sachin Tendulkar"/>    <!--Class Level-->
+        <classes>
+            <class name = "Practice_Test.ParameterizedTest1" />
+        </classes>
+    </test>
+</suite>
