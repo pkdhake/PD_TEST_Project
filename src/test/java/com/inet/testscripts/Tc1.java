@@ -15,7 +15,6 @@ public class Tc1 extends BaseClass {
 
         //driver.get(baseURL);
         NseHomePage obj_nsehm = new NseHomePage(driver);
-        System.out.println("Page Status : "+ Utils.waitForPageLoad(driver,20));
 
         obj_nsehm.test_Enable_Disable();
         obj_nsehm.click_on_Equities();
